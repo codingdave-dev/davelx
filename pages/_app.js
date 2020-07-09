@@ -5,6 +5,7 @@ import { ThemeProvider } from "@material-ui/core/styles";
 import theme from "../src/theme";
 
 import Header from "../src/ui/Header";
+import Footer from "../src/ui/Footer";
 
 const MyApp = (props) => {
   const { Component, pageProps } = props;
@@ -39,6 +40,8 @@ const MyApp = (props) => {
 
 
         <Component {...pageProps} />
+
+        <Footer/>
       </ThemeProvider>
     </Fragment>
   );
