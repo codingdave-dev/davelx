@@ -24,19 +24,19 @@ const MyApp = (props) => {
   return (
     <Fragment>
       <Head>
-        <title>Daves NextJS Starter Files</title>
+        <title>Home || davelx.co.uk</title>
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
       </Head>
       <ThemeProvider theme={theme}>
-        <Header
-          value={value}
-          setValue={setValue}
-          selectedIndex={selectedIndex}
-          setSelectedIndex={setSelectedIndex}
-        />
+        {/*<Header*/}
+        {/*  value={value}*/}
+        {/*  setValue={setValue}*/}
+        {/*  selectedIndex={selectedIndex}*/}
+        {/*  setSelectedIndex={setSelectedIndex}*/}
+        {/*/>*/}
 
 
         <Component {...pageProps} />

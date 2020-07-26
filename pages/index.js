@@ -4,7 +4,6 @@ import { Grid } from "@material-ui/core";
 import Typography from "@material-ui/core/Typography";
 
 import useMediaQuery from "@material-ui/core/useMediaQuery";
-import ProfileHeader from "../src/ui/ProfileHeader";
 
 const useStyles = makeStyles((theme) => ({
   // ADD STYLS HERE
@@ -18,8 +17,10 @@ const Index = () => {
 
 
   return (
-    <Grid container>
-      <Grid item><Typography variant={'h1'}>This is the starter page</Typography></Grid>
+    <Grid container justify={'center'} style={{marginTop: '10em'}}>
+      <Grid item>
+        <Typography variant={'h1'} align={'center'}>This is a holding page for davelx.co.uk</Typography>
+      </Grid>
     </Grid>
   );
 };
